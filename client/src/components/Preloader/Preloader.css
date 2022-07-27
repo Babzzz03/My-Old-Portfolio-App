@@ -1,0 +1,52 @@
+.preloader {
+    height: 100vh;
+    ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__loader {
+    height: 190px;
+    object-fit: contain;  
+    display: flex;
+    align-items: center;
+    animation: loading 2.5s linear  ;
+ 
+             
+
+    
+}
+
+@keyframes loading {
+      0% {
+      
+        transform: rotateY(0);
+        opacity: 1;
+    }
+        90% {
+     
+          transform: rotateY(360deg); 
+              opacity: 1;
+    }
+        93% {
+     
+          transform: translate(10%, -70%); 
+            height: 170px;
+         
+       
+    }
+   
+    100% {
+     
+    
+          transform: translate( 40%,  -479% ); 
+            height: 20px;
+            opacity: 0;
+         
+     
+    }
+}

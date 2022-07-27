@@ -1,0 +1,229 @@
+.services__container {
+    height: 790px;
+  
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ position: relative;
+    align-items: center;
+    background: #121212;
+  
+
+}
+
+.services__container  .swiper{
+ 
+    width: 80%;
+    height: 70%;
+    cursor: grab;
+}
+.services__container  .swiper-slide{
+ 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.services__container  .swiper-pagination-bullet{
+ 
+   background: #e49f08;
+   height: 20px;
+     width: 20px;
+}
+
+.services__container  .swiper-pagination-bullet-active{
+ 
+   background: #ffae00;
+   height: 20px;
+     width: 20px;
+}
+
+
+
+
+.main__services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    padding-bottom: 2.4rem;
+    width: 20rem;
+    height: 20rem;
+      
+    background: #212529;
+    border: 1px solid rgb(248, 184, 9);
+    box-shadow: 0 1.6rem 2.4rem rgb(0 0 0 / 25%);
+    border-bottom: 8px solid green;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+
+transition: 0.4s ease-in-out;
+}
+
+.main__services:hover {
+   
+      
+    background-color: rgb(16, 54, 8);
+  
+
+
+}
+
+
+
+.main__services>img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;
+    object-fit: contain;
+
+
+}
+.main__services>span {
+   color: rgb(171, 171, 172);
+  font-size: 14px;
+
+
+}
+.main__services>h3 {
+text-align: left!important;
+font-size: 14px;
+font-weight: 700;
+align-items: left;
+justify-content: left;
+margin-bottom: 10px;
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .services__container {
+    height: 1300px;
+   
+}
+
+}
+
+@media screen and (max-width: 480px) {
+  .services__container {
+    height: 900px;
+   
+}
+
+}
+
+
+.services__wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 16px;
+    padding: 0 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+ .services__wrapper {
+  
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+ .services__wrapper {
+  
+    grid-template-columns: 1fr;
+   padding: 0 20px;
+}
+
+
+}
+
+.services__card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    max-height: 340px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border: 2px solid rgb(255, 196, 0);
+   
+}
+
+
+.services__card:hover {
+    transform: scale(1.02)!important;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.services__icon {
+    object-fit: cover;
+    height: 160px;
+    width: 160px;
+    margin-bottom: 10px;
+}
+
+
+
+.services {
+    font-size: 2.5rem;
+     font-family: sans-serif;
+    color: rgb(248, 171, 5);
+  
+
+}
+
+@media screen and (max-width: 480px) {
+ .services {
+    font-size: 2rem;
+   
+}
+
+
+
+}
+
+.services__info {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.services__sub__info {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.mobile__swiper {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .pc__swiper {
+    display: none;
+}
+
+.mobile__swiper {
+    display: flex;
+}
+.services__container .swiper {
+    width: 80%;
+    height: 60%;
+
+}
+
+}
